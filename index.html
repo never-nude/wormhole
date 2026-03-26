@@ -22,7 +22,7 @@
   <body>
     <canvas id="scene" aria-label="Interactive 3D wormhole simulation"></canvas>
 
-    <aside class="hud" data-mode="transit" data-phase="approach">
+    <aside class="hud" data-mode="inspect" data-phase="approach">
       <section class="cluster overview">
         <div class="identity">
           <p class="eyebrow">Spacetime Transit Visualization</p>
@@ -42,10 +42,10 @@
 
         <div class="mode-strip">
           <div class="segmented" role="group" aria-label="View mode">
-            <button id="inspectButton" type="button" class="mode-button" aria-pressed="false">
+            <button id="inspectButton" type="button" class="mode-button" aria-pressed="true">
               Inspect
             </button>
-            <button id="transitButton" type="button" class="mode-button" aria-pressed="true">
+            <button id="transitButton" type="button" class="mode-button" aria-pressed="false">
               Transit
             </button>
           </div>

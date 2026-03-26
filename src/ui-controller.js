@@ -5,7 +5,7 @@ function capitalize(value) {
   return value.charAt(0).toUpperCase() + value.slice(1);
 }
 
-export function createUI({ initialMode = "transit", initialValues, onControlsChange, onModeChange, onReplay, onPulse }) {
+export function createUI({ initialMode = "inspect", initialValues, onControlsChange, onModeChange, onReplay, onPulse }) {
   const root = document.querySelector(".hud");
   const phaseBadge = document.querySelector("#phaseBadge");
   const inspectButton = document.querySelector("#inspectButton");

@@ -8,7 +8,7 @@ import { createUI } from "./ui-controller.js";
 
 const canvas = document.querySelector("#scene");
 const searchParams = new URLSearchParams(window.location.search);
-const initialViewMode = searchParams.get("mode") === "inspect" ? "inspect" : "transit";
+const initialViewMode = searchParams.get("mode") === "transit" ? "transit" : "inspect";
 
 const settings = {
   bloom: 0.84,
